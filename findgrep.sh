@@ -6,4 +6,3 @@ if [ -z "$directory" ]; then
         directory='.'
 fi
 find "$directory" -type f | xargs grep -nH "$pattern"
-aaaaaaaaaa
